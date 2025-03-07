@@ -15,7 +15,7 @@ Const
   RootDir='./www';
 
 Type
-  TClientHandler=class(TThread)
+  TClientHandler=Class(TThread)
   Private
     ClientSocket:LongInt;
   Protected

@@ -40,7 +40,7 @@ End;
 
 Procedure TClientHandler.HandleRequest;
 Var
-  Buffer:array[1..BufferSize] Of Byte;
+  Buffer:Array[1..BufferSize] Of Byte;
   ReceivedBytes:LongInt;
   Request,FilePath,FullPath:String;
   FileStream:TFileStream;

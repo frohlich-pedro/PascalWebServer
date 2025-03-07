@@ -11,7 +11,7 @@ Uses
 
 Const
   ServerPort=8080;
-  BufferSize=1024;
+  BufferSize=4096;
   RootDir='./www';
 
 Type

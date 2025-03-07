@@ -83,7 +83,7 @@ Begin
       Begin
         FileStream:=TFileStream.Create(FullPath,FmOpenRead Or FmShareDenyWrite);
         Try
-          ResponseHeader:='HTTP/1.1 200 OK'+sLineBreak+
+          ResponseHeader:='HTTP/1.1 200 OK'+SLineBreak+
                           'Content-Type: '+GetContentType(ExtractFileExt(FilePath))+SLineBreak+
                           'Content-Length: '+IntToStr(FileStream.Size)+SLineBreak+
                           'Connection: close'+SLineBreak+SLineBreak;
